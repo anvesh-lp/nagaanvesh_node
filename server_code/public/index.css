@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    /*grid-auto-rows: auto 1fr 0.5fr 0.5fr 0.5fr 0.2fr;*/
+    grid-auto-rows: auto auto auto auto auto auto;
+
+}
+
+.navbar {
+    font-size: 20px;
+    background: #f4cdb8;
+}
+
+.navbar-item {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#navbar-item {
+    float: right;
+    margin-right: 80px;
+}
+
+#navbar-head {
+    margin-left: 100px;
+}
+
+.nav-item, a {
+    display: inline;
+    text-decoration: none;
+    margin: 15px;
+}
+
+/*---------------------About-----------------------*/
+
+.about {
+    margin: 0;
+    padding: 0;
+    /*background: #99e7e7;*/
+    min-height: 500px;
+}
+
+.image-div {
+    float: left;
+    width: 40%;
+    height: 100%;
+    /*background: #e7d3fa;*/
+}
+
+.about-content {
+    float: right;
+    width: 60%;
+    min-height: 500px;
+    /*background: aquamarine;*/
+    /*!*background: #e7d3fa;*!*/
+}
+
+.profile-Photo {
+    margin: 60px 100px 0;
+    /*background: #def8f8;*/
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+}
+
+#pic {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.details-div {
+    /*!*background: chartreuse;*!*/
+    margin-top: 20px;
+}
+
+.details {
+    margin-left: 190px;
+}
+
+.about-div {
+    margin-top: 120px;
+}
+
+.about-details {
+    margin-top: 50px;
+    margin-left: 20px;
+    color: #0f5709;
+}
+
+#details1 {
+    font-size: 30px;
+}
+
+#details2, #details3 {
+    font-size: 20px;
+}
+
+/*---------------------Education-----------------------*/
+
+.education {
+    margin: 0;
+    padding: 0;
+    /*background: #99e7e7;*/
+    min-height: 500px;
+}
+
+.main-heading {
+    /*width: 100%;*/
+    background: #f4cdb8;
+    min-height: 70px;
+    display: flex;
+    padding-left: 40%;
+}
+
+.heading {
+    width: 100%;
+    height: 100%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.icon {
+    margin-left: 40%;
+}
+
+.heading {
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.icon-size {
+    font-size: 30px;
+}
+
+.name-div {
+    overflow: auto;
+    display: block;
+    max-width: 100%;
+}
+
+.university-div {
+    /*background: blanchedalmond;*/
+    /*overflow: auto;*/
+    display: block;
+}
+
+.uni-text {
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-bottom: 7px;
+}
+
+.date {
+    float: right;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.uni-name {
+    margin-left: 20px;
+    margin-bottom: 13px;
+    overflow: auto;
+}
+
+.skills {
+    height: 260px;
+    width: 100%;
+    /*background: #e7d3fa;*/
+}
+
+.skills-heading {
+    font-size: 30px;
+    text-align: center;
+    /*background: #8df38d;*/
+}
+
+.skill-list {
+    /*background: #def8f8;*/
+    height: 100%;
+}
+
+.skills {
+    /*background: aqua;*/
+    text-align: center;
+}
+
+.skill-text {
+}
+
+.skill {
+    display: inline-block;
+}
+li a {
+    font-weight: 500;
+    font-size: 16px;
+    color: #de1c7d;
+    text-decoration: none;
+}
+
+.skill-icon {
+    margin-top: 20px;
+}
+
+.material-icons {
+    margin: 10px;
+}
+
+/*--------------------------Experience-----------------------*/
+#experience {
+    margin: 0;
+    padding: 0;
+    /*height: 410px;*/
+    min-height: 410px;
+    display: block;
+}
+
+ul.about-project {
+    list-style-type: square;
+    padding-left: 35px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    overflow: auto;
+    max-width: 100%;
+}
+
+#projects {
+    min-height: 230px;
+}
+
+#footer {
+    height: 80px;
+    /*background: #def8f8;*/
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    /*padding-top: 1px;*/
+    background-color: #8d99ae;
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+body {
+    background-color: #e5e5e5;
+}
+
+@media screen and (max-width: 500px) {
+    #container {
+        /*background-color: #d7e7f6;*/
+        height: auto;
+        display: grid;
+        width: 100%;
+        /*grid-template-columns: 1fr;*/
+        grid-auto-rows: 0.09fr 0.2fr 0.2fr 0.2fr 1fr 0.2fr 0.2fr;
+    }
+
+    .nav_links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+    }
+    .nav_links li{
+        width: 100%;
+        margin: 10px;
+    }
+}
